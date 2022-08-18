@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/chat.css">
+    <script src="https://kit.fontawesome.com/6a4f24c0b1.js" 
+    crossorigin="anonymous"></script>
+    <script src="JavaScript\chat.js"></script>
+    <title>MyChat</title>
+
+</head>
+<body style="background-color: rgb(199, 195, 195);">
+
+    <header class="grid-container">
+        <div class="grid-child1">
+           <img  class="logo" src="imgIcons/chat.png" alt="logo">
+         
+        </div>
+
+        <div class="grid-child2">
+            <p>My Chat</p>
+        </div>
+
+        <div class="grid-child3">
+            <button class="button-login">Loggin</button>
+        </div>
+        
+    </header>
+    <main>
+
+        <section class="flex-container">
+            <article class="flex-child1">
+                 <div class="users">
+                   Bogdan Sorinescu
+                 </div>
+                 <div class="users">
+                    Mihai Sorinescu
+                  </div>
+            </article>
+            <article class="flex-child2">
+                <div class="userJoin">
+                 Bogdan Sorinescu joined the chat
+                </div>
+
+                <div class="message-incomming">
+                    <h5 class="incomming">Bogdan Sorinescu</h5>
+                    <p style="font-size:15px;">Hello, how are you?</p>
+                </div>
+
+                <div class="message-outgoing">
+                    <h5 class="outgoing">Mihai Sorinescu</h5>
+                    <p style="font-size:15px;">Fine thanks, where are you?</p>
+                </div>
+                <div class="user-input">
+                    <input type="'text'" placeholder="Type your message here...">
+                    <button onclick="my_chat_Request.send()" class="button-send-message">SEND</button>
+                </div>
+            </article>
+
+        </section>
+    
+            <footer class="footer">
+                <p class="footer-child">© All Rights Reserved | MB2022</p>
+            </footer> 
+        
+       
+    </main>
+       
+</body>
+</html>

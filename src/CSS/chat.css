@@ -1,0 +1,221 @@
+:root {
+    --corp-color: #2791cf;
+    --color-white: white;
+}
+
+.grid-container {
+   background-color: var(--corp-color);
+} 
+
+.grid-child3 {
+    background-color: var(--color-white);
+    color: var(--corp-color);
+}
+
+.button-login{
+    background-color: var(--color-white);
+    align-self: center;
+    color: var(--corp-color);
+    width: fit-content;
+    padding: 2px;
+    border-style: solid;
+    border-color: var(--corp-color);
+
+}
+
+/*HEADER*/
+.grid-container{
+    background-color: var(--corp-color);
+    /*background-color: #2791cf;*/
+
+    display: grid;
+    justify-content: start;
+    /*justify-content: space-around;*/
+    grid-template-columns: 100px 100px 150rem;
+
+    height: 70px;
+
+    max-width: 100%;
+}
+
+.logo {
+    width: 50px;
+}
+
+.grid-child1{
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+}
+
+.grid-child2 {   
+    color: var(--color-white);   
+}
+
+p {
+    font-size: 25px;
+}
+
+.grid-child3{
+    width: 70px;
+    height: 30px;
+    background-color: var(--color-white);
+    /*color:  #2791cf;*/
+    background-color: var(--corp-color);
+    margin: auto;  
+        
+}
+
+/*FLEX-CONTAINER*/
+.flex-container{
+    background-color: darkgray;
+    flex-direction: column;
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 0px;
+
+}
+
+.flex-child1{
+    background-color: rgba(48, 42, 42, 0.315);
+    border-color:1px black;
+    width: 20%;
+    height: 760px;
+    border-radius: 30px;
+    margin: 20px 10px 20px 40px; 
+}
+
+.flex-child2 {
+    background-color: rgba(48, 42, 42, 0.315);
+    border-color:1px black;
+    width: 73%;
+    height: 760px;
+    border-radius: 30px;
+    margin: 20px 30px 20px 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+    
+}
+
+.users {
+    background-color: var(--color-white);
+    background-color: var(--corp-color);
+    /*color: #2791cf;*/
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin: 20px;
+    width:fit-content;
+}
+
+.userJoin{
+    background-color: var(--color-white);
+    background-color: var(--corp-color);
+    /*color: #2791cf;*/
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin: 20px;
+    width:fit-content;
+    margin-left: 360px;
+}
+
+.message-incomming{
+    color:gray;
+    background-color: var(--color-white);
+    margin-top: 2px;
+    max-width: 250px;
+    max-height: 70px;
+    margin-bottom: 15px;
+    border-radius: 10px 50px 50px 10px;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+.message-outgoing{
+    color: var(--color-white);
+    background-color: var(--corp-color);
+    /*background-color: #2791cf;*/
+    margin-top: 2px;
+    max-width: 250px;
+    max-height: 70px;
+    margin-bottom: 15px;
+    border-radius: 50px 10px 10px 50px;
+    padding-top: 4px;
+    padding-left: 4px;
+    text-align: right;
+    margin-left: auto;
+
+}
+
+.user-input{
+   margin-bottom: 5px;
+   padding-top: 280px;
+}
+
+input{
+    font-size: 15px;
+    background-color: var(--color-white);
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    width: 89%;
+    border-radius: 50px 0px 0px 50px;
+    
+}
+button:hover {
+    background-color: gray;
+    color: var(--corp-color);
+}
+
+.button-send-message{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    letter-spacing: 0,5px;
+    color: var(--color-white);
+    border-radius: 0px 50px 50px 0px;
+    background-color: var(--corp-color);
+    /*background-color: #2791cf;*/
+    height: 40px;   
+    
+}
+
+.footer{
+    width: 100%;
+    /*background-color: #2791cf;*/
+    background-color: var(--corp-color);
+    height: 70px;
+    display: grid;
+    justify-content: center;
+}
+
+.footer-child {
+    font-weight: 100;
+    font-size: 10px;
+    color: var(--color-white);
+    padding-top: 20px;
+}
+
+.incomming {
+    /*background-color: #2791cf;*/
+    background-color: var(--corp-color);
+    border-radius: 50px;
+    color: var(--color-white);
+    width: fit-content;
+    margin: 5px;
+}
+
+.outgoing {
+    background-color: var(--color-white);
+    border-radius: 50px;
+    color: grey;
+    width: fit-content;
+    margin: 5px;
+    margin-left: auto;
+}
