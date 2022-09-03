@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap-4.6.2-dist/css/chat.css">
+    <script src="https://kit.fontawesome.com/6a4f24c0b1.js" 
+    crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="CSS/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <title>MyChat</title>
+
+</head>
+<body style="background-color: rgb(199, 195, 195);">
+   
+    <header class="container-fluid justify-content-center" id="header">
+        <div class="row" >
+           <div class="col-1"><img class="logo" src="imgIcons/chat.png" alt="logo"></div>
+           <div class="col-2"><pre class="grid-child2">MyChat</pre></div>
+           <div class="col-9 grid-child3"><button class="button-login">Loggin</button>
+        </div>  
+        </div>  
+    </header>
+   
+    <main>
+
+        <section class="container-fluid" id="flex-container">
+            <div class="row">
+                <article class="col-4 users-grid" id="flex-child1" >
+                    <div class="users">
+                      <pre class="usersName">Bogdana Sorinescu</pre>
+                    </div>
+                   
+                    
+               </article>
+               <article class="col-7" id="flex-child2">
+                
+                <!--<div class="message-incomming">
+                   <p class="incomming">Bogdana Sorinescu</p>
+                    <label id="message" style="font-size:15px;" ></label>
+                </div>
+
+                <div class="message-outgoing">
+                    <p class="outgoing">Mihai Sorinescu</p>
+                    <p style="font-size:15px;">Fine thanks, where are you?</p>
+                </div>-->
+                <div id="messageList"  >
+
+                </div>
+                
+                <div class="user-input">
+                    <label style="color: white;" id="myLabel"></label><br><br>
+                    <input type="text" id="message" >
+                    <!--<button onclick="sendMessages()" class="button-send-message" type="button" id="myButton">SEND</button>-->
+                    <input id="submit" type="button" onclick="sendMessage()" value="Send" class="button-send-message" />
+                </div>
+            </article>
+            </div>  
+              
+            
+        </section>
+    
+        <div class="container-fluid"></div>
+            <footer class="row" id="footer">
+                <p class=" col-12" id="footer-child">© All Rights Reserved | MB2022</p>
+            </footer> 
+        
+       
+    </main>
+    <script src="chat.js"></script>
+</body>
+</html>
