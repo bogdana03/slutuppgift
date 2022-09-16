@@ -15,7 +15,7 @@
    
     <header class="container-fluid justify-content-center" id="header">
         <div class="row" >
-           <div class="col-1"><img class="logo" src="imgIcons/chat.png" alt="logo"></div>
+           <div class="col-1 grid-child1"><img class="logo" src="imgIcons/chat.png" alt="logo"></div>
            <div class="col-2"><pre class="grid-child2">MyChat</pre></div>
            <div class="col-9 grid-child3"><button class="button-login">Loggin</button>
         </div>  
@@ -35,15 +35,7 @@
                </article>
                <article class="col-7" id="flex-child2">
                 
-                <!--<div class="message-incomming">
-                   <p class="incomming">Bogdana Sorinescu</p>
-                    <label id="message" style="font-size:15px;" ></label>
-                </div>
-
-                <div class="message-outgoing">
-                    <p class="outgoing">Mihai Sorinescu</p>
-                    <p style="font-size:15px;">Fine thanks, where are you?</p>
-                </div>-->
+               
                 <div id="messageList"  >
 
                 </div>
@@ -51,7 +43,6 @@
                 <div class="user-input">
                     <label style="color: white;" id="myLabel"></label><br><br>
                     <input type="text" id="message" >
-                    <!--<button onclick="sendMessages()" class="button-send-message" type="button" id="myButton">SEND</button>-->
                     <input id="submit" type="button" onclick="sendMessage()" value="Send" class="button-send-message" />
                 </div>
             </article>
@@ -67,6 +58,6 @@
         
        
     </main>
-    <script src="chat.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

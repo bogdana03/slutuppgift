@@ -19,16 +19,6 @@
     float: right;
 }
 
-/*HEADER*/
-.grid-container{
-    background-color: var(--corp-color);
-    display: grid;
-    justify-content: start;
-    grid-template-columns: 100px 100px 150rem;
-    height: 70px;
-    max-width: 100%;
-}
-
 
 /*TEST HEADERr*/
 #header{
@@ -45,22 +35,11 @@
 }
 
 /*GRIDCHILD*/
-.grid-child1{
-    width: 10px;
-    height: 10px;
-    padding: 10px;
-    
-}
-
 .grid-child2 {   
     color: var(--color-white);
     font-size: 35px;
-    text-align: left;
-    
-    
+    text-align: left; 
 }
-
-
 
 .grid-child3{
     background-color: var(--corp-color);
@@ -123,16 +102,7 @@
     font-size: 15px;
 }
 
-.userJoin{
-    background-color: var(--color-white);
-    background-color: var(--corp-color);
-    padding: 5px;
-    border-radius: 50px;
-    font-size: 18px;
-    margin: 20px;
-    width:fit-content;
-    margin-left: 360px;
-}
+
 
 .message-incomming{
     color:gray;
@@ -165,7 +135,7 @@
 
 .user-input{
    margin-bottom: 5px;
-   padding-top: 400px;
+   padding-top: 50px;
    
 }
 
@@ -217,19 +187,4 @@ button:hover {
     padding-top: 20px;
 }
 
-.incomming {
-    background-color: var(--corp-color);
-    border-radius: 50px;
-    color: var(--color-white);
-    width: fit-content;
-    margin: 5px;
-}
 
-.outgoing {
-    background-color: var(--color-white);
-    border-radius: 50px;
-    color: grey;
-    width: fit-content;
-    margin: 5px;
-    margin-left: auto;
-}
